@@ -30,7 +30,7 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<!-- Opening slide -->
-				<section>
+				<section class="present" style="display: block;">
 					<img src = "images/gdi_logo_badge.png">
 					<h3>SASS</h3>
 					<a href="class1">Class #1</a>
@@ -40,12 +40,27 @@
 			
 			<footer>
 				<div class="copyright">
-					Intro to Git and Github ~ Girl Develop It ~
+					SASS ~ Girl Develop It ~
 					<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
 				</div>
 			</footer>
 		
+			<div style="display: block;" class="progress">
+				<span style="width: 0px;"></span>
+			</div>
+			
+			<aside style="display: block;" class="controls">
+				<div class="left"></div>
+				<div class="right enabled"></div>
+				<div class="up"></div>
+				<div class="down"></div>
+			</aside>
+			
+			<div class="state-background"></div>
+			<div class="pause-overlay"></div>
+			
 		</div><!-- END div.reveal -->
+		
 		
 		<!-- JavaScript -->
 		<script src="reveal/lib/js/head.min.js"></script>
